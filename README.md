@@ -1,10 +1,10 @@
-# 🧪 Mini LinkedIn Website
+#  Mini LinkedIn Website
 
 A simplified LinkedIn-style web application built with ReactJS (frontend) and NodeJS (backend).
 
 ---
 
-## ✅ Tech Stack
+# Tech Stack
 
 - **Frontend**: ReactJS, React Router, Axios, (optional: Tailwind CSS)
 - **Backend**: NodeJS, Express
@@ -12,24 +12,22 @@ A simplified LinkedIn-style web application built with ReactJS (frontend) and No
 - **Security**: JWT (authentication), bcryptjs (password hashing)
 
 ---
+  Features
 
-## 🔧 Features
-
-### 🔐 Authentication
+#Authentication
 - Register with email and password
 - Login with JWT token
 - Protect profile & post feed routes with middleware
-
-### 👤 Profile Page
+# Profile Page
 - View profile (name, bio, profile picture URL)
 - Edit profile
 - Change password
 
-### 📝 Post Feed
+# Post Feed
 - View all posts (author, content, timestamp)
 - Create new post
 
-### 🧩 Optional Stretch Goals
+# Optional Stretch Goals
 - Profile picture upload
 - Like button on posts
 - Edit/delete own posts
@@ -37,11 +35,10 @@ A simplified LinkedIn-style web application built with ReactJS (frontend) and No
 
 ---
 
-## 📘 1. ERD / Database Structure
+##  1. ERD / Database Structure
 
 ### users
-| Field            | Type         | Description             |
-|------------------|--------------|-------------------------|
+| Field             Type          Description   
 | id               | INT, PK      | Auto increment ID       |
 | name             | VARCHAR(100) | Full name               |
 | email            | VARCHAR(100) | Unique                  |
@@ -60,7 +57,7 @@ A simplified LinkedIn-style web application built with ReactJS (frontend) and No
 
 ---
 
-## 🧠 2. Function List
+# 2. Function List
 
 ### Backend
 - Register user (hash password, save to DB)
@@ -82,7 +79,7 @@ A simplified LinkedIn-style web application built with ReactJS (frontend) and No
 
 ---
 
-## 🌐 3. API / Route List
+##  3. API / Route List
 
 | Method | Endpoint             | Description                    | Protected |
 |--------|----------------------|--------------------------------|-----------|
@@ -98,7 +95,7 @@ A simplified LinkedIn-style web application built with ReactJS (frontend) and No
 
 ---
 
-## 🧩 4. React Component List
+## 4. React Component List
 
 - `RegisterPage`
 - `LoginPage`
@@ -112,7 +109,7 @@ A simplified LinkedIn-style web application built with ReactJS (frontend) and No
 - `AuthContext` (JWT state management)
 ---
 
-## 🛠️ Next Steps
+##  Next Steps
 - Selesaikan backend route (auth, profile, posts)
 - Bangun frontend layout dan routing
 - Hubungkan React ke backend pakai Axios
